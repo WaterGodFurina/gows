@@ -5,6 +5,7 @@ go 1.24
 toolchain go1.24.3
 
 require (
+	gorilla/websocket
 	github.com/lib/pq v1.12.3
 	github.com/redis/go-redis/v9 v9.20.0
 	golang.org/x/sync v0.10.0
